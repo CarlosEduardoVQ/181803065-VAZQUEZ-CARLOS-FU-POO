@@ -25,8 +25,6 @@ public class ConseguirN {
             }
 
         } while ( num != ale ); 
-        
-        
     
     }
 
