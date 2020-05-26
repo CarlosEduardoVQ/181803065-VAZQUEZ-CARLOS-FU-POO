@@ -2,22 +2,19 @@
 import java.util.Scanner;
 
 public class EdadesP {
-    
+
     public static void main(String[] args) {
         Scanner dato = new Scanner(System.in);
-        
-        int nalum, edadesa;
-        
-    
-        
-        
+
+        int n_alum;
+
         System.out.print("El número de alumnos es: ");
-        nalum = dato.nextInt();
-        System.out.println("El número de ");
-        edadesa = dato.nextInt();
-        
-       
-        
+        n_alum = dato.nextInt();
+
+        for (int i = 0; i < n_alum; i++) {
+
+        }
+
     }
-    
+
 }
