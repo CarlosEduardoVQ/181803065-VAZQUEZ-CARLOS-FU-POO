@@ -1,7 +1,10 @@
 
 public class JuegoMain {
     public static void main(String[] args) {
-        Ak bronce =new Ak();
+        
+        //CONSTRUCTOR VACIO. 
+        Ak bronce = new Ak("Bronce");
+        
        
         bronce.tipo="bronce";
         bronce.cargador=5;
@@ -12,6 +15,8 @@ public class JuegoMain {
         bronce.velocidadDisparo=10;
         
         System.out.println(bronce.toString());
+        
+        bronce.disparar();
         
         Ak plata = new Ak();
         
